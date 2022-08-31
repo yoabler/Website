@@ -1,0 +1,88 @@
+@import './_variables.scss';
+
+#contact {
+  padding-top: 7rem;
+  background-image: url('../public/backgrounds/contactpoly.svg');
+  background-color: #027cee0a;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  .bg {
+    background-image: url('../public/backgrounds/contactbg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    z-index: 2;
+    padding-bottom: 4rem;
+    @media screen and (max-width: 768px) {
+      background-position: bottom;
+      background-size: contain;
+      padding-bottom: 6rem;
+    }
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    background: #ffffff;
+    border-radius: 20px;
+  }
+  h2 {
+    text-align: center;
+    color: #011f3d;
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 1.75rem;
+    @media screen and (max-width: 768px) {
+      font-size: 32px;
+    }
+  }
+  h3 {
+    font-size: 32px;
+    color: #011f3d;
+    font-weight: 900;
+    margin-bottom: 0.2rem;
+    @media screen and (max-width: 768px) {
+      font-size: 28px;
+    }
+  }
+  .label_head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+  }
+  input,
+  textarea {
+    padding: 0.75rem 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 50px;
+    border: 0.5px solid #cccccc;
+    outline: none;
+    &::placeholder {
+      color: #b3b3b3;
+    }
+    &:focus {
+      border: 0.5px solid $colblue;
+    }
+  }
+  textarea {
+    border-radius: 12px;
+  }
+  button {
+    padding: 1rem 4rem;
+    border-radius: 50px;
+    color: white;
+    margin-right: auto;
+    border: none;
+    background-color: $colblue;
+    @media screen and (max-width: 768px) {
+      margin: auto;
+      font-size: 16px;
+      width: 100%;
+    }
+  }
+}

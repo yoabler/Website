@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "img": "/images/team/summayah.svg",
+        "name": "Summayah",
+        "title": "FOUNDER - YOABLE"
+    },
+    {
+        "id": 2,
+        "img": "/images/team/ikram.svg",
+        "name": "Ikram Babs-Lawal",
+        "title": "CO-FOUNDER - YOABLE"
+    },
+    {
+        "id": 3,
+        "img": "/images/team/ikram2.svg",
+        "name": "Mutmainnah Adeyemi",
+        "title": "CO-FOUNDER - YOABLE"
+    },
+    {
+        "id": 4,
+        "img": "/images/team/ikram3.svg" ,
+        "name": "Adeeko Emmanuel",
+        "title": "PRODUCT DESIGNER" 
+    },
+    {
+        "id": 5,
+        "img": "/images/team/jaypee.svg",
+        "name": "Johnpaul Eyibra",
+        "title": "FRONT END DEVELOPER"
+    },
+    {
+        "id": 6,
+        "img": "/images/team/yusuf.jpeg",
+        "name": "Sakeenah Yusuf",
+        "title": "COMMUNITY MANAGER"
+    },
+    {
+        "id": 7,
+        "img": "/images/team/evelyn.jpeg",
+        "name": "Mamukuyomi Evelyn",
+        "title": "COMMUNITY MANAGER"
+    },
+    {
+        "id": 8,
+        "img": "/",
+        "name": "Mamukuyomi Evelyn",
+        "title": "COMMUNITY MANAGER"
+    }
+]

@@ -1,0 +1,84 @@
+@import './_variables.scss';
+
+#swiper {
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  width: 100%;
+  height: 300px;
+  margin: 20px auto;
+}
+}
+.swiper{
+  position: static!important;
+}
+.swiper-button-prev, .swiper-button-next{
+    top: 55%!important;
+    width: 100px!important;
+    height: 100px!important;
+    @media screen and (max-width: 1280px) {
+        top: 70%!important;        
+    }
+    @media screen and (max-width: 1000px) {
+        top: 80%!important;        
+    }
+    @media screen and (max-width: 768px) {
+        top: 107.5%!important;        
+    }
+}
+.swiper-button-next{
+    left: 150px!important;
+}
+.swiper-button-prev::after, .swiper-button-next::after {
+    border: 2px solid #ffaa00!important;
+    display: flex;
+    font-size: 20px!important;
+    justify-content: center;
+    font-weight: 900;
+    align-items: center;
+    color: $colblue;
+    width: 100px!important;
+    height: 100px!important;   
+    border-radius: 50px;   
+    @media screen and (max-width: 768px) {
+        width: 75px;
+        height: 75px;
+    }
+}
