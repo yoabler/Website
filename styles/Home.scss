@@ -20,6 +20,7 @@
     h2 {
       font-weight: 700;
       font-size: 56px;
+      color: #011f3d;
     }
     .in_demand {
       color: $colyel;
@@ -251,6 +252,9 @@
       justify-content: center;
       align-items: center;
     }
+    p {
+      color: black;
+    }
     .blue_bg {
       background: $colblue;
       border-radius: 50px;
@@ -307,6 +311,7 @@
         font-size: 28px;
       }
     }
+    
     .teamates {
       margin-top: 2rem;
       overflow-x: scroll;
