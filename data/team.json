@@ -40,5 +40,17 @@
         "img": "/images/team/evelyn.jpeg",
         "name": "Mamukuyomi Evelyn",
         "title": "COMMUNITY MANAGER"
+    },
+    {
+        "id": 8,
+        "img": "/images/team/hanif.jpeg",
+        "name": "Hanif Olayiwola",
+        "title": "TECHNICAL WRITER"
+    },
+    {
+        "id": 9,
+        "img": "/images/team/edidiong.jpeg",
+        "name": "Edidiong Ekanem",
+        "title": "SOCIAL MEDIA MANAGER"
     }
 ]
