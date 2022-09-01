@@ -13,10 +13,10 @@ const Meta = ({ title, keywords, description }) => {
       <link rel='icon' href='/images/Yoable.svg' />
 
       <meta property="og:type" content="website"></meta>
-      <meta property="og:url" content="https://yoable.com/"></meta>
-      <meta property="og:title" content="Yoable" key="ogtitle" />
+      <meta property="og:url" content="https://yoable.org/"></meta>
+      <meta property="og:title" content={title} key="ogtitle" />
       <meta property="og:description" content={description} key="ogdesc" />
-      <meta property="og:image" content="https://yoable.com/meta-image.jpg"></meta>        
+      <meta property="og:image" content="https://yoable.org/meta-image.jpg"></meta>        
     </Head>
 
   );

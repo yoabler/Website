@@ -49,7 +49,7 @@ export default function Home() {
 
   return (
     <>
-      <Meta title='YOABLE' keywords='' description='' />
+      <Meta title='YOABLE' />
       <div id='home'>
         <section id='hero'>
           <div className='container-md'>
