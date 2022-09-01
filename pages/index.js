@@ -33,9 +33,19 @@ export default function Home() {
     'Critical Thinking & Analysis',
     'System Analysis',
   ];
-
+  
   const [swiperRef, setSwiperRef] = useState(null);
   const cards = Array(18).fill();
+  
+  React.useEffect(() => {
+    if (typeof window !== 'undefined') {
+      console.log('You are on the browser')
+    } else {
+      console.log('You are on the server')
+    }
+
+  }, [])
+  
 
   return (
     <>
@@ -57,8 +67,8 @@ export default function Home() {
               <span>
                 <Image
                   src={card1}
-                  height='440'
-                  width='325'
+                  height='400'
+                  width='310'
                   layout='fixed'
                   alt='person1.png'
                 />
@@ -66,8 +76,8 @@ export default function Home() {
               <span className='mx-4'>
                 <Image
                   src={card2}
-                  height='500'
-                  width='320'
+                  height='450'
+                  width='280'
                   layout='fixed'
                   alt='person2.png'
                 />
@@ -75,8 +85,8 @@ export default function Home() {
               <span>
                 <Image
                   src={card3}
-                  height='440'
-                  width='325'
+                  height='400'
+                  width='310'
                   layout='fixed'
                   alt='person3.png'
                 />
@@ -186,9 +196,9 @@ export default function Home() {
                 <div className='col-12 col-md-7 d-flex teamates swiper'>
                   <Swiper
                     onSwiper={setSwiperRef}
-                    slidesPerView={3}
+                    slidesPerView={(typeof window !== 'undefined') && window.innerWidth >= 768 ? 2 : 1}
                     centeredSlides={false}
-                    spaceBetween={350}
+                    spaceBetween={10}
                     navigation={true}
                     modules={[Navigation]}
                     className='mySwiper'>
@@ -199,8 +209,8 @@ export default function Home() {
                               <Image
                                 src={team.img}
                                 layout='fixed'
-                                height='504'
-                                width={'340'}
+                                height='480'
+                                width={'350'}
                                 style={{ borderRadius: 16 }}
                                 alt={team.name + '.png'}
                               />

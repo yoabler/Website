@@ -2,6 +2,7 @@
 
 #home {
   overflow: hidden;
+  background-color: white;
   #hero {
     padding-top: 7rem;
     padding-bottom: 4rem;
@@ -73,8 +74,8 @@
           height: 344px;
         }
         img:nth-child(2) {
-          width: 260px;
-          height: 366px;
+          width: 260px!important;
+          height: 366px!important;
         }
         
       }
