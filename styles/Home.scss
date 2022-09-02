@@ -139,14 +139,17 @@
         font-weight: 700;
       }
       .case {
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-        grid-template-rows: auto auto;
+        display: flex;
+        flex-wrap: wrap;
+        
+        //display: grid;
+        //grid-template-columns: auto auto auto auto;
+        //grid-template-rows: auto auto;
         word-break: none;
-        overflow-x: scroll;
-        -ms-overflow-style: none;
-        scrollbar-width: none;
-        grid-column-gap: 10px;
+        //overflow-x: scroll;
+        //-ms-overflow-style: none;
+        //scrollbar-width: none;
+        //grid-column-gap: 10px;
         &::-webkit-scrollbar {
           display: none;
         }

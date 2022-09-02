@@ -122,10 +122,10 @@ export default function Home() {
                 {skills.map((skills) => {
                   return (
                     <p key={skills} className='skill'>
-                      {skills}
+                      {skills} 
                     </p>
                   );
-                })}
+                })} <span className='case'><p className='skill'>etc...</p></span>
               </div>
             </div>
           </div>

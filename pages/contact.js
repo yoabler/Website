@@ -3,18 +3,30 @@ import Image from 'next/image';
 import Meta from '../components/Meta';
 import React from 'react'
 import emailjs from '@emailjs/browser';
+import swal from 'sweetalert';
 
 const contact = () => {
   const form = React.createRef();
   
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_4es8kf4', 'TEMPLATE_ID', form.current, 'PUBLIC_KEY')
+    emailjs.sendForm('service_4es8kf4', 'template_809027q', form.current, 'qaeQkocY7XH0bRb2w')
       .then((result) => {
           console.log(result.text);
+          swal({
+            title: "Success!",
+            text: "Your response has been received!",
+            icon: "success",
+          });
       }, (error) => {
           console.log(error.text);
+          swal({
+            title: "Error",
+            text: `${error.text}`,
+            icon: "warning",
+          });
       });
+      e.target.reset()
   };
   return (
     <>
@@ -34,17 +46,17 @@ const contact = () => {
               <label>Fullname</label>
               <Image src={help}  alt='help.png' />
             </div>
-            <input name="name" type='text' placeholder="Enter your fullname" />
+            <input name="from_name" type='text' placeholder="Enter your fullname" required />
             <div className='label_head'>
             <label>Email Address</label>
               <Image src={help}  alt='help.png' />
             </div>
-            <input name="email" type='email' placeholder="Enter your Email Address" />
+            <input name="email" type='email' placeholder="Enter your Email Address" required />
             <div className='label_head'>
             <label>Mail Subject</label>
               <Image src={help}  alt='help.png' />
             </div>
-            <input name="subject" type='text' placeholder="Enter your Mail Subject" />
+            <input name="subject" type='text' placeholder="Enter your Mail Subject" required />
             <div className='label_head'>
             <label>Write your thoughts here...</label>
               <Image src={help}  alt='help.png' />
@@ -55,7 +67,7 @@ const contact = () => {
                   name='message'
                   placeholder='message'
                   required></textarea>
-            <button>Send Message</button>
+            <button type='submit'>Send Message</button>
           </form>
         </div>
       </div>
