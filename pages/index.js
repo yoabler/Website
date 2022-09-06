@@ -143,7 +143,7 @@ export default function Home() {
                   </h2>
                   <p>
                   Reducing Poverty rate across various countries through inculcating skills
-                    necessary for <br /> individual growth
+                    necessary for individual growth
                   </p>
                 </div>
               </div>
