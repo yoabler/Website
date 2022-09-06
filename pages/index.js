@@ -142,7 +142,7 @@ export default function Home() {
                     Vision
                   </h2>
                   <p>
-                    Reducing Poverty in Nigeria through inculcating skills
+                  Reducing Poverty rate across various countries through inculcating skills
                     necessary for <br /> individual growth
                   </p>
                 </div>
