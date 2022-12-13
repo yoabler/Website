@@ -24,12 +24,6 @@
         "title": "FRONT END DEVELOPER"
     },
     {
-        "id": 6,
-        "img": "/images/team/yusuf.jpeg",
-        "name": "Sakeenah Yusuf",
-        "title": "COMMUNITY MANAGER"
-    },
-    {
         "id": 7,
         "img": "/images/team/evelyn.jpeg",
         "name": "Mamukuyomi Evelyn",
@@ -40,11 +34,5 @@
         "img": "/images/team/hanif.jpeg",
         "name": "Hanif Olayiwola",
         "title": "TECHNICAL WRITER"
-    },
-    {
-        "id": 9,
-        "img": "/images/team/edidiong.jpeg",
-        "name": "Edidiong Ekanem",
-        "title": "SOCIAL MEDIA MANAGER"
     }
 ]
