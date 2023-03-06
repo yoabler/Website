@@ -18,15 +18,27 @@
         "title": "CO-FOUNDER - YOABLE"
     },
     {
-        "id": 5,
+        "id": 4,
         "img": "/images/team/jaypee.svg",
         "name": "Johnpaul Eyibra",
         "title": "FRONT END DEVELOPER"
     },
     {
-        "id": 8,
+        "id": 5,
         "img": "/images/team/hanif.jpeg",
         "name": "Hanif Olayiwola",
         "title": "TECHNICAL WRITER"
-    }
+    },
+    {
+        "id": 6,
+        "img": "/images/team/ridwanullah.jpeg",
+        "name": "Ridwanullah Baruwa",
+        "title": "COMMUNITY MANAGER"
+    },
+      {
+        "id": 9,
+        "img": "/images/team/balqees.jpeg",
+        "name": "Balqees Ahmad",
+        "title": "TECHNICAL WRITER"
+    }    
 ]
