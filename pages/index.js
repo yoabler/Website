@@ -60,7 +60,7 @@ export default function Home() {
             <p className='d-none d-md-block colblue fw-bolder my-4 fs-3'>
               Digital Skills
             </p>
-            <a href='https://forms.gle/wJRCneM9mT8K3BJS9'>
+            <a href='https://linktr.ee/yoable'>
               <button>Join Our Community</button>
             </a>
             <div id='hero_cards' className=''>
